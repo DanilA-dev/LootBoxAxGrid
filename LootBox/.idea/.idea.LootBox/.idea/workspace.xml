@@ -20,7 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d5439a9-622a-4e20-89a7-0d5095be3ac9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/ButtonEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/ButtonEvent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/SlotButtonModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/SlotMachineFSM.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/SlotMachineFSM.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/ScrollSlotMachineState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/ScrollSlotMachineState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/SerenitySlotMachineState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LootBox/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LootBox/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LootBox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LootBox/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Scenes/URP2DSceneTemplate.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Scenes/URP2DSceneTemplate.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +50,46 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/08/12c5ad3a/DynamicModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/8c/94396419/AsyncEventManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/SerenitySlotMachineState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/SlotButtonModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/7c/a300d8b3/Settings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/52/a4608043/FSM.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/8e/abcd9542/FSMState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/63/d0269738/Log.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C282EFA9-AD0C-423D-920C-93C6022B29D7/fa/dd5b8d3b/ILog.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/b3/920c7ac0/Binder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/ItemModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/3b/8d291fca/One.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/5c/18fb9b69/Options.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/e5/c82d1003/MonoBehaviourExtBind.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/SlotFSM.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/SlotMachineFSM.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/SerenitySlotMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Data/ItemData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/SlotButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/SlotButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/ItemModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/SlotButtonModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/SlotButtonModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/SerenitySlotMachineState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/UISlotButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/ButtonEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/UISlotStopButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/UISlotStartButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/AxGrid/Tools/UIButtonDataBind.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/ScrollSlotMachineState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/FSM/SlotMachineFSM.cs" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="2g1EmuGbsySOtjuUga5MILWvno5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,9 +98,34 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -51,8 +136,19 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="461" y="161" key="SettingsEditor" timestamp="1714915681843">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="461" y="161" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1714915681843" />
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1714947016599">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1714947016599" />
   </component>
 </project>
