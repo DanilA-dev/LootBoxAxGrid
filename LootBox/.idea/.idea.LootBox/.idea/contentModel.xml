@@ -154,20 +154,40 @@
           <e p="Scripts" t="Include">
             <e p="Core" t="Include">
               <e p="ButtonEvent.cs" t="Include" />
+              <e p="Interfaces" t="Include">
+                <e p="IItemModel.cs" t="Include" />
+                <e p="IItemsModel.cs" t="Include" />
+                <e p="ISlotMachineModel.cs" t="Include" />
+                <e p="ISlotModel.cs" t="Include" />
+              </e>
+              <e p="ItemsModelBinder.cs" t="Include" />
               <e p="Model" t="Include">
                 <e p="ItemModel.cs" t="Include" />
-                <e p="SlotButtonModel.cs" t="Include" />
+                <e p="ItemsModel.cs" t="Include" />
+                <e p="SlotMachineModel.cs" t="Include" />
+                <e p="SlotModel.cs" t="Include" />
               </e>
             </e>
             <e p="Data" t="Include">
               <e p="ItemData.cs" t="Include" />
             </e>
+            <e p="Extensions" t="Include">
+              <e p="ListExtensions.cs" t="Include" />
+            </e>
             <e p="FSM" t="Include">
-              <e p="SlotMachineFSM.cs" t="Include" />
+              <e p="SlotMachineHandler.cs" t="Include" />
               <e p="States" t="Include">
-                <e p="ScrollSlotMachineState.cs" t="Include" />
-                <e p="SerenitySlotMachineState.cs" t="Include" />
+                <e p="InitSlotsState.cs" t="Include" />
+                <e p="ScrollSlotsState.cs" t="Include" />
+                <e p="SetItemSlotState.cs" t="Include" />
               </e>
+            </e>
+            <e p="Helpers" t="Include">
+              <e p="Constants.cs" t="Include" />
+            </e>
+            <e p="UI" t="Include">
+              <e p="UISlotItem.cs" t="Include" />
+              <e p="UISlotMachine.cs" t="Include" />
             </e>
           </e>
           <e p="Sprites" t="Include" />

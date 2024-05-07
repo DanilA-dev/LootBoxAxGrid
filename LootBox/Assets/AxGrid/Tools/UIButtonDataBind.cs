@@ -1,5 +1,5 @@
 ﻿using AxGrid.Base;
-using Core;
+using Core.Types;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -10,7 +10,7 @@ namespace AxGrid.Tools.Binders{
 	/// Бинд кнопки в модель
 	/// </summary>
 	[RequireComponent(typeof(Button))]
-	public class UIButtonDataBind : Binder
+	public abstract class UIButtonDataBind : Binder
 	{
 		private Button button;
 		/// <summary>
@@ -50,6 +50,8 @@ namespace AxGrid.Tools.Binders{
 		private bool cancel = false;
 
 		private EventTrigger et;
+		
+		public abstract ButtonBindType BindType { get; }
 		
 		[OnAwake]
 		public void awake()
@@ -131,7 +133,7 @@ namespace AxGrid.Tools.Binders{
 			{
 				Model?.EventManager.Invoke("SoundPlay", "Click");
 				
-				Settings.Invoke("OnBtn", buttonName);
+				Settings.Invoke(Constants.Events.BUTTON_CLICK, BindType);
 				
 				Model?.EventManager.Invoke($"On{buttonName}Click");
 			}

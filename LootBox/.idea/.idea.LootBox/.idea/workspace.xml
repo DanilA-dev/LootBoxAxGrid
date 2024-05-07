@@ -20,27 +20,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d5439a9-622a-4e20-89a7-0d5095be3ac9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/ButtonEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/ButtonEvent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/SlotButtonModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/SlotMachineFSM.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/SlotMachineFSM.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/ScrollSlotMachineState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/ScrollSlotMachineState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/SerenitySlotMachineState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LootBox/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LootBox/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Interfaces.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Interfaces/IItemModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Interfaces/IItemModel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Interfaces/IItemsModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Interfaces/IItemsModel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Interfaces/ISlotMachineModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Interfaces/ISlotMachineModel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Interfaces/ISlotModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Interfaces/ISlotModel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/ItemsModelBinder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/ItemsModelBinder.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/ItemsModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/ItemsModel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/SlotMachineModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/SlotMachineModel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/SlotModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/SlotModel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Extensions.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Extensions/ListExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Extensions/ListExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/InitSlotsState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/InitSlotsState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/SetItemSlotState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Helpers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Helpers/Constants.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Helpers/Constants.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/UI/UISlotItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/UI/UISlotItem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/UI/UISlotMachine.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/UI/UISlotMachine.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LootBox/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LootBox/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LootBox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LootBox/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Scenes/URP2DSceneTemplate.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Scenes/URP2DSceneTemplate.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Layer Lab/GUI Pro-FantasyRPG/ResourcesData/Particles/Materials/fx_glow2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Layer Lab/GUI Pro-FantasyRPG/ResourcesData/Particles/Materials/fx_glow2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Prefab/Slot Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Prefab/Slot Button.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Prefab/SlotItem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Prefab/SlotItem.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/ItemModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/ItemModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/SlotButtonModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/SlotButtonModel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/SlotMachineFSM.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/SlotMachineHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/SlotMachineFSM.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/SlotMachineHandler.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/ScrollSlotMachineState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/ScrollSlotsState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/ScrollSlotMachineState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/ScrollSlotsState.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/SerenitySlotMachineState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/SerenitySlotMachineState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/SetItemSlotState.cs.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +77,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/08/12c5ad3a/DynamicModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FE7039EF-E678-478D-9C83-E73BC6A6566D/cd/64c8ac84/ProfilerWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/8c/94396419/AsyncEventManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/SerenitySlotMachineState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/SlotButtonModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/SetItemSlotState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/7c/a300d8b3/Settings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/52/a4608043/FSM.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/8e/abcd9542/FSMState.cs" root0="SKIP_HIGHLIGHTING" />
@@ -76,17 +101,38 @@
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Data/ItemData.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/SlotButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/SlotButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/ItemModel.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/SlotButtonModel.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/SlotButtonModel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/SerenitySlotMachineState.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/UISlotButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/ButtonEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/UISlotStopButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/UISlotStartButton.cs" />
         <option value="$PROJECT_DIR$/Assets/AxGrid/Tools/UIButtonDataBind.cs" />
-        <option value="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/ScrollSlotMachineState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/ItemsHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/SlotsModel.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/FSM/SlotMachineFSM.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/ScrollSlotMachineState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/SerenitySlotMachineState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/ScrollSlotsState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/SetItemSlotStateState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/StartSlotsState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Helpers/Constants.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/InitSlotsState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/ItemsContainerModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Interfaces/IItemModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Interfaces/IItemsModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/ItemModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Extensions/ListExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/ItemsModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/SlotModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Interfaces/ISlotMachineModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Interfaces/ISlotModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/UI/UISlotMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/UI/UISlotItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/ItemsModelBinder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/FSM/SlotMachineHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/SlotMachineModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/FSM/States/SetItemSlotState.cs" />
       </list>
     </option>
   </component>
@@ -99,24 +145,26 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="167892">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="167892" />
       <option name="selectedOptions">
         <set />
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="167892">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="167892" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -142,13 +190,81 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="461" y="161" key="SettingsEditor" timestamp="1714915681843">
+    <state width="1877" height="371" key="GridCell.Tab.0.bottom" timestamp="1715108243698">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="461" y="161" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1714915681843" />
-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1714947016599">
+    <state width="1877" height="371" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1715108243698" />
+    <state width="1877" height="371" key="GridCell.Tab.0.center" timestamp="1715108243698">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1714947016599" />
+    <state width="1877" height="371" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1715108243698" />
+    <state width="1877" height="371" key="GridCell.Tab.0.left" timestamp="1715108243698">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1715108243698" />
+    <state width="1877" height="371" key="GridCell.Tab.0.right" timestamp="1715108243698">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1715108243698" />
+    <state width="1877" height="371" key="GridCell.Tab.1.bottom" timestamp="1715108243698">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1715108243698" />
+    <state width="1877" height="371" key="GridCell.Tab.1.center" timestamp="1715108243698">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1715108243698" />
+    <state width="1877" height="371" key="GridCell.Tab.1.left" timestamp="1715108243698">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1715108243698" />
+    <state width="1877" height="371" key="GridCell.Tab.1.right" timestamp="1715108243698">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1715108243698" />
+    <state width="1877" height="371" key="GridCell.Tab.2.bottom" timestamp="1715108243698">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.2.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1715108243698" />
+    <state width="1877" height="371" key="GridCell.Tab.2.center" timestamp="1715108243698">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.2.center/0.0.1920.1032@0.0.1920.1032" timestamp="1715108243698" />
+    <state width="1877" height="371" key="GridCell.Tab.2.left" timestamp="1715108243698">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.2.left/0.0.1920.1032@0.0.1920.1032" timestamp="1715108243698" />
+    <state width="1877" height="371" key="GridCell.Tab.2.right" timestamp="1715108243698">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.2.right/0.0.1920.1032@0.0.1920.1032" timestamp="1715108243698" />
+    <state width="1877" height="371" key="GridCell.Tab.3.bottom" timestamp="1715108243698">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.3.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1715108243698" />
+    <state width="1877" height="371" key="GridCell.Tab.3.center" timestamp="1715108243698">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.3.center/0.0.1920.1032@0.0.1920.1032" timestamp="1715108243698" />
+    <state width="1877" height="371" key="GridCell.Tab.3.left" timestamp="1715108243698">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.3.left/0.0.1920.1032@0.0.1920.1032" timestamp="1715108243698" />
+    <state width="1877" height="371" key="GridCell.Tab.3.right" timestamp="1715108243698">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.3.right/0.0.1920.1032@0.0.1920.1032" timestamp="1715108243698" />
+    <state x="794" y="217" key="RiderGenerateDialog" timestamp="1715098425743">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="794" y="217" key="RiderGenerateDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1715098425743" />
+    <state x="461" y="161" key="SettingsEditor" timestamp="1714994418566">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="461" y="161" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1714994418566" />
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1715088768072">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1715088768072" />
   </component>
 </project>

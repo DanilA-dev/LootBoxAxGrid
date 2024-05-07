@@ -1,8 +1,9 @@
-﻿using UnityEngine;
+﻿using Core.Interfaces;
+using UnityEngine;
 
 namespace Model
 {
-    public class ItemModel
+    public class ItemModel : IItemModel
     {
         public string ItemName { get; private set; }
         public Sprite Icon { get; private set; }
