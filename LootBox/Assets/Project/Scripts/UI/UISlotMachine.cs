@@ -1,7 +1,6 @@
 ﻿using AxGrid;
 using AxGrid.Base;
 using AxGrid.Utils;
-using Core.Interfaces;
 using Model;
 using UnityEngine;
 using UnityEngine.UI;
